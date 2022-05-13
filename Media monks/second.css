@@ -1,0 +1,86 @@
+
+
+body{
+    background-image: url("./2.jpg");
+    background-color: #cccccc;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center; 
+    color:white;
+    overflow: hidden;
+  }
+
+  .hero-image{
+      position: relative;
+      box-sizing: border-box;
+      height:100vh;
+      padding-top:15%;
+  }
+
+  .navigation{
+   
+
+      width:100%;
+      display:flex;
+      justify-content: space-between;
+  }
+
+  a{
+      text-decoration: none;
+      color:white;
+      font-size:25px;
+      margin-top:5%;
+  }
+
+  .Talent_quote{
+      margin-right: 60%;
+      width:25%;
+      text-decoration: underline;
+      font-weight: 400;
+      word-spacing: 5px;
+      line-height: 1.5  ;
+  }
+
+  .bottom{
+      padding-top: 8%;
+      display: flex;
+      font-size:16px;
+      justify-content: space-between;
+  }
+
+
+  
+
+  .firstpage_quote{
+      margin-right:25%;
+      font-size:15px;
+      margin-top:3%;
+  }
+  
+ 
+
+  .pagination {
+    display: inline-block;
+    font-size: 16px;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px dotted #ddd;
+  }
+  
+  .pagination a.active {
+    background-color:white;
+    color: white;
+    border: 1px dotted white;
+  }
+  
+  .pagination a:hover:not(.active) {background-color: #ddd;}
+
+

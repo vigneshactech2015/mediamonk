@@ -1,0 +1,84 @@
+body{
+    background-color: black;
+}
+
+.split{
+    display:flex;
+    justify-content: space-between;
+    flex-direction: row;
+    color:white;
+}
+
+.lastimage{
+    height: 96vh;
+    width:40%;
+}
+
+.mediamonk_title{
+    color:white;
+    text-decoration: underline;
+    margin-left: 1%;
+    margin-right:4%;
+    font-size: 20px;
+}
+
+
+
+.navigator{
+    position: absolute;
+    top:40%;
+    color:white;
+    text-decoration: none;
+    font-size:xx-large;
+}
+
+.right{
+    display: flex;
+    flex-direction: column;
+justify-content: space-between;
+}
+
+.middlewording{
+    position:absolute;
+    color:white;
+    top:40%;
+    font-size: 12px;
+}
+
+.logo{
+    height:100px;
+    width:150px;
+}
+
+.middlewording1{
+    position:absolute;
+    color:white;
+    top:43%;
+    right:1%;
+    font-size: 12px;
+}
+
+.pagination {
+    font-size: 12px;
+    position: fixed;
+    top:85%;
+    left:2%;
+  }
+  
+  .pagination a {
+    color: black;
+    float: left;
+
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px dotted #ddd;
+  }
+  
+  .pagination a.active {
+    background-color:white;
+    color: white;
+    border: 1px dotted white;
+  }
+  
+  .pagination a:hover:not(.active) {background-color: #ddd;}

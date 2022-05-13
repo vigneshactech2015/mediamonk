@@ -1,0 +1,22 @@
+
+body{
+    background-color: black;
+    overflow: hidden;
+}
+
+.loading-image{
+    padding-top: 10%;
+    padding-left: 45%;
+}
+
+a{
+    font-size: 40px;
+    text-decoration:none;
+    color:white;
+    padding-left: 95%;
+}
+
+p{
+    color:white;
+    padding-left: 43%;
+}
